@@ -49,13 +49,13 @@ h2 {
 @page {
   size: 4.75in 8in;
   margin-top: 0.25in;
-  margin-bottom: 0.8in;
+  margin-bottom: 0.9in;
   bleed: 0.25in;
   marks: crop;
 }
 @page:left {
   margin-left: 0.4in;
-  margin-right: 0.1in;
+  margin-right: 0.4in;
   @bottom-left {
     content: counter(page);
     font-size: 10px;
@@ -66,7 +66,7 @@ h2 {
   }
 }
 @page:right {
-  margin-left: 0.1in;
+  margin-left: 0.4in;
   margin-right: 0.4in;
   @bottom-left {
     content:"Gayoung Do";
